@@ -1,0 +1,174 @@
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav > span > img {
+    height: 48px;
+    float:right;
+} 
+
+.heading_wrapper {
+    background-color:#FB795B;
+    padding:5px;
+    border: 5px;;
+    overflow:hidden;
+}
+.topnav a.active {
+
+  color: white;
+
+}
+
+
+.heading h1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.heading p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+.btn-group button {
+    background-color: #246390;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    padding-left: 5px;
+    border: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    margin-left: 5px;
+  }
+
+  /* Clear fix */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .btn-group button:not(:last-child) {
+    border-right: none; 
+  }
+
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: solid white;
+  }
+
+  .search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .searchTerm {
+    width: 136%;
+    border: 2px solid #00B4CC;
+    border-right: none;
+    padding: 9px;
+    height: 34px;
+    border-radius: 13px 13px 13px 13px;
+    outline: none;
+    color: #9DBFAF;
+}
+  
+  .searchTerm:focus{
+    color: #00B4CC;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  
+  .wrap{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .tail{
+    background-color:#FB795B; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .tail p{
+    color: white;
+
+  }
+  .button {
+    float: right;
+    background-color: #FB795B;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .box{
+
+    height: 100px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
